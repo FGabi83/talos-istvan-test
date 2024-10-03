@@ -1,0 +1,24 @@
+@import 'partials/normalize.css';
+@import 'partials/base.css';
+@import 'partials/typography.css';
+@import 'partials/layout.css';
+@import 'partials/header.css';
+@import 'partials/hero.css';
+@import 'partials/buttons.css';
+@import 'partials/paintings.css';
+@import 'partials/about.css';
+@import 'partials/contact.css';
+/*;
+@import 'partials/highlighted-text.css';
+
+
+@import 'partials/drinks.css';
+
+@import 'partials/accordion.css';*/
+@import 'partials/privacy.css';
+@import 'partials/impressium.css';
+@import 'partials/footer.css';
+@import 'partials/icons.css';
+@import 'partials/hide.css';
+
+

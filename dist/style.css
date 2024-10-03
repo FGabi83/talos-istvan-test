@@ -1,0 +1,1144 @@
+/*!*****************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./public/css/partials/normalize.css ***!
+  \*****************************************************************************************************************/
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+
+/* Document
+   ========================================================================== */
+
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ */
+
+ html {
+    line-height: 1.15; /* 1 */
+    -webkit-text-size-adjust: 100%; /* 2 */
+  }
+  
+  /* Sections
+     ========================================================================== */
+  
+  /**
+   * Remove the margin in all browsers.
+   */
+  
+  body {
+    margin: 0;
+  }
+  
+  /**
+   * Render the `main` element consistently in IE.
+   */
+  
+  main {
+    display: block;
+  }
+  
+  /**
+   * Correct the font size and margin on `h1` elements within `section` and
+   * `article` contexts in Chrome, Firefox, and Safari.
+   */
+  
+  h1 {
+    font-size: 2em;
+    margin:    0;
+  }
+  
+  /* Grouping content
+     ========================================================================== */
+  
+  /**
+   * 1. Add the correct box sizing in Firefox.
+   * 2. Show the overflow in Edge and IE.
+   */
+  
+  hr {
+    box-sizing: content-box; /* 1 */
+    height: 0; /* 1 */
+    overflow: visible; /* 2 */
+  }
+  
+  /**
+   * 1. Correct the inheritance and scaling of font size in all browsers.
+   * 2. Correct the odd `em` font sizing in all browsers.
+   */
+  
+  pre {
+    font-family: monospace, monospace; /* 1 */
+    font-size: 1em; /* 2 */
+  }
+  
+  /* Text-level semantics
+     ========================================================================== */
+  
+  /**
+   * Remove the gray background on active links in IE 10.
+   */
+  
+  a {
+    background-color: transparent;
+  }
+  
+  /**
+   * 1. Remove the bottom border in Chrome 57-
+   * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+   */
+  
+  abbr[title] {
+    border-bottom: none; /* 1 */
+    text-decoration: underline; /* 2 */
+    text-decoration: underline dotted; /* 2 */
+  }
+  
+  /**
+   * Add the correct font weight in Chrome, Edge, and Safari.
+   */
+  
+  b,
+  strong {
+    font-weight: bolder;
+  }
+  
+  /**
+   * 1. Correct the inheritance and scaling of font size in all browsers.
+   * 2. Correct the odd `em` font sizing in all browsers.
+   */
+  
+  code,
+  kbd,
+  samp {
+    font-family: monospace, monospace; /* 1 */
+    font-size: 1em; /* 2 */
+  }
+  
+  /**
+   * Add the correct font size in all browsers.
+   */
+  
+  small {
+    font-size: 80%;
+  }
+  
+  /**
+   * Prevent `sub` and `sup` elements from affecting the line height in
+   * all browsers.
+   */
+  
+  sub,
+  sup {
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline;
+  }
+  
+  sub {
+    bottom: -0.25em;
+  }
+  
+  sup {
+    top: -0.5em;
+  }
+  
+  /* Embedded content
+     ========================================================================== */
+  
+  /**
+   * Remove the border on images inside links in IE 10.
+   */
+  
+  img {
+    border-style: none;
+  }
+  
+  /* Forms
+     ========================================================================== */
+  
+  /**
+   * 1. Change the font styles in all browsers.
+   * 2. Remove the margin in Firefox and Safari.
+   */
+  
+  button,
+  input,
+  optgroup,
+  select,
+  textarea {
+    font-family: inherit; /* 1 */
+    font-size: 100%; /* 1 */
+    line-height: 1.15; /* 1 */
+    margin: 0; /* 2 */
+  }
+  
+  /**
+   * Show the overflow in IE.
+   * 1. Show the overflow in Edge.
+   */
+  
+  button,
+  input { /* 1 */
+    overflow: visible;
+  }
+  
+  /**
+   * Remove the inheritance of text transform in Edge, Firefox, and IE.
+   * 1. Remove the inheritance of text transform in Firefox.
+   */
+  
+  button,
+  select { /* 1 */
+    text-transform: none;
+  }
+  
+  /**
+   * Correct the inability to style clickable types in iOS and Safari.
+   */
+  
+  button,
+  [type="button"],
+  [type="reset"],
+  [type="submit"] {
+    -webkit-appearance: button;
+  }
+  
+  /**
+   * Remove the inner border and padding in Firefox.
+   */
+  
+  button::-moz-focus-inner,
+  [type="button"]::-moz-focus-inner,
+  [type="reset"]::-moz-focus-inner,
+  [type="submit"]::-moz-focus-inner {
+    border-style: none;
+    padding: 0;
+  }
+  
+  /**
+   * Restore the focus styles unset by the previous rule.
+   */
+  
+  button:-moz-focusring,
+  [type="button"]:-moz-focusring,
+  [type="reset"]:-moz-focusring,
+  [type="submit"]:-moz-focusring {
+    outline: 1px dotted ButtonText;
+  }
+  
+  /**
+   * Correct the padding in Firefox.
+   */
+  
+  fieldset {
+    padding: 0.35em 0.75em 0.625em;
+  }
+  
+  /**
+   * 1. Correct the text wrapping in Edge and IE.
+   * 2. Correct the color inheritance from `fieldset` elements in IE.
+   * 3. Remove the padding so developers are not caught out when they zero out
+   *    `fieldset` elements in all browsers.
+   */
+  
+  legend {
+    box-sizing: border-box; /* 1 */
+    color: inherit; /* 2 */
+    display: table; /* 1 */
+    max-width: 100%; /* 1 */
+    padding: 0; /* 3 */
+    white-space: normal; /* 1 */
+  }
+  
+  /**
+   * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+   */
+  
+  progress {
+    vertical-align: baseline;
+  }
+  
+  /**
+   * Remove the default vertical scrollbar in IE 10+.
+   */
+  
+  textarea {
+    overflow: auto;
+  }
+  
+  /**
+   * 1. Add the correct box sizing in IE 10.
+   * 2. Remove the padding in IE 10.
+   */
+  
+  [type="checkbox"],
+  [type="radio"] {
+    box-sizing: border-box; /* 1 */
+    padding: 0; /* 2 */
+  }
+  
+  /**
+   * Correct the cursor style of increment and decrement buttons in Chrome.
+   */
+  
+  [type="number"]::-webkit-inner-spin-button,
+  [type="number"]::-webkit-outer-spin-button {
+    height: auto;
+  }
+  
+  /**
+   * 1. Correct the odd appearance in Chrome and Safari.
+   * 2. Correct the outline style in Safari.
+   */
+  
+  [type="search"] {
+    -webkit-appearance: textfield; /* 1 */
+    outline-offset: -2px; /* 2 */
+  }
+  
+  /**
+   * Remove the inner padding in Chrome and Safari on macOS.
+   */
+  
+  [type="search"]::-webkit-search-decoration {
+    -webkit-appearance: none;
+  }
+  
+  /**
+   * 1. Correct the inability to style clickable types in iOS and Safari.
+   * 2. Change font properties to `inherit` in Safari.
+   */
+  
+  ::-webkit-file-upload-button {
+    -webkit-appearance: button; /* 1 */
+    font: inherit; /* 2 */
+  }
+  
+  /* Interactive
+     ========================================================================== */
+  
+  /*
+   * Add the correct display in Edge, IE 10+, and Firefox.
+   */
+  
+  details {
+    display: block;
+  }
+  
+  /*
+   * Add the correct display in all browsers.
+   */
+  
+  summary {
+    display: list-item;
+  }
+  
+  /* Misc
+     ========================================================================== */
+  
+  /**
+   * Add the correct display in IE 10+.
+   */
+  
+  template {
+    display: none;
+  }
+  
+  /**
+   * Add the correct display in IE 10.
+   */
+  
+  [hidden] {
+    display: none;
+  }
+/*!************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./public/css/partials/base.css ***!
+  \************************************************************************************************************/
+/*-----------------------------------*\
+* BASIC SETTINGS OF THE PAGE
+\*-----------------------------------*/
+
+:root {
+    --font-color:         #333333; /* dark grey text color*/
+    --title-color:        #405136; /* dark green title color */
+    --highlight-color:    #526845; /* light green highlight color */
+    --font-size-regular:    clamp(1.125rem, 0.5vw + 1rem, 1.25rem);
+    --line-height-regular:  calc(var(--font-size-regular) * 1.5);
+    --font-size-title:      clamp(1.875rem, 3.5vw + 1rem, 3.75rem);
+    --line-height-title:    calc(var(--font-size-title) * 1.2);
+    --font-size-small:      1rem;
+    --line-height-small:    calc(var(--font-size-small) * 1.5);
+    --header-height:        clamp(3.125rem, 6vw + 1rem, 5rem);
+    --hero-height:          calc(100vh - var(--header-height));  
+    --footer-height:        6.375rem; 
+} 
+
+/* normalize CSS */
+
+* {
+    margin:     0;
+    padding:    0;
+    box-sizing: border-box;
+}
+
+  
+  html, body {
+    width:      100%;
+    overflow-x: hidden;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+
+   body {
+    background-color: white;
+   }
+
+  
+   
+
+  
+
+
+/*!******************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./public/css/partials/typography.css ***!
+  \******************************************************************************************************************/
+html {
+  font-size:        16px;
+  color:            var(--font-color);
+}
+
+  
+  body {
+    width:       100vw;
+    font-family: "Josefin sans", sans-serif;
+    font-weight: 300;
+    text-align:  left;
+    font-size:   var(--font-size-regular);
+    line-height: var(--line-height-regular);
+  }
+
+
+    a {
+      text-decoration: none;
+    }
+
+    .title {
+      font-family:   'Splash', cursive;
+      font-weight:    400;
+      font-size:      var(--font-size-title);
+      line-height:    var(--line-height-title);
+      margin:         0;
+      color:          var(--title-color);
+    }
+
+      
+      
+      
+    .title__center {
+      text-align: center;
+      margin-top:    1rem;
+      margin-bottom: 1rem;
+    }
+
+      
+
+    .text__nav {
+      font-family:    'Josefin Sans', sans-serif;
+      font-size:      var(--font-size-small);
+      line-height:    var(--line-height-small);
+      color:          var(--font-color);
+    }
+
+      
+
+
+      .text__bold {
+        font-weight: bold;
+      }
+
+     
+
+/*!**************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./public/css/partials/layout.css ***!
+  \**************************************************************************************************************/
+/*--------------------------------*\
+* LAYOUT 
+
+*Container............overall layout of the page
+*
+*Main.................over layout of the content
+*
+\*--------------------------------*/
+
+
+/*--------------------------------*\
+* OVERALL LAYOUT OF THE PAGE
+\*--------------------------------*/
+
+.container {
+    display:        flex;
+    flex-flow:      column nowrap;
+    align-items:    center;
+    min-height:     100vh;
+    width:          100%;
+    position:       relative;
+}
+  
+  
+  
+  
+  
+  /*--------------------------------*\
+  * CONTENT LAYOUT
+  \*--------------------------------*/
+
+  main {
+    display:         flex;
+    flex-flow:       column nowrap;      
+    justify-content: flex-start;
+    align-items:     center;
+    flex-grow:       1;
+    width:           100%;
+    margin-top:      var(--header-height);
+    gap:             5rem;
+    max-width:       1440px;
+    margin-bottom:   4.25rem;
+  }
+
+  section {
+    display:         flex;
+    flex-flow:       column nowrap;
+    justify-content: flex-start;
+    align-items:     center;
+    gap:             2rem;
+    width:           100%;
+   
+    
+  }
+
+@media(min-width: 768px) {
+  main {
+    gap: 9.5rem;
+  }
+  section {
+    gap: 4rem;
+  }
+  
+}
+
+  
+
+
+ 
+/*!**************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./public/css/partials/header.css ***!
+  \**************************************************************************************************************/
+/*
+*Sticky Header........main layout, max-width, padding, and position
+*
+*Navbar..... .........sandvich menu, 
+*Desktop version......sandvich menu hidden, underline shown on hover
+*/
+
+/*Sticky header*/
+
+header {
+  width:            100vw;
+  height:           var(--header-height);
+  border-bottom:    1px solid var(--title-color);
+  background-color: white;
+  display:          flex;
+  flex-flow:        row nowrap;
+  justify-content:  center;
+  align-items:      center;
+  position:         fixed;
+  z-index:          100;
+  padding-right:    1rem;
+}
+
+  /*.header--wrapper {
+    width:            min(100%, 1920px);
+    display:          flex;
+    flex-flow:        row nowrap;
+    justify-content:  space-between;  
+    align-items:      center;
+    opacity:          1;
+    padding-left:     5%;
+    padding-right:    5%;
+   
+  }*/
+
+  
+  /* Navbar */
+ 
+  .js-nav--wrapper {
+  display:  flex;
+  width:    100%;
+  position: fixed;
+  top:       var(--header-height);
+  left:     0;
+ 
+}
+
+  .js-nav--wrapper > * {
+    width: 100%;
+  }
+    .nav {
+      max-height:       0;
+      display:          flex;
+      width:            100%;
+      gap:              0;
+      margin-left:      0; 
+      flex-flow:        column nowrap;
+      justify-content:  flex-start;
+      align-items:      center;
+      overflow:         hidden;
+      transition:       max-height 0.5s ease-out;
+      
+    }
+    
+      .js-nav--wrapper.js-is-open .nav {
+        max-height: 100%;
+        background-color: white;
+      }
+    
+        .nav > * { 
+          border-bottom:   1px solid var(--font-color); 
+          padding-top:     1px;
+          width:           100%;
+          height:          2rem;
+          z-index:         100;
+          display:         flex;
+          justify-content: center;
+          align-items:     center;
+          
+         
+        }
+
+    
+      
+    .js-nav--menu {
+      display:      block;
+      margin-left:  auto;
+    }
+
+    .menu-icon {
+      width:  30px;
+      height: 25px;
+      cursor: pointer;
+      display: block;
+      margin-top: auto;
+      margin-bottom: auto;
+    }
+    .menu-line {
+      stroke: var(--font-color);
+      stroke-width: 1;
+      stroke-linecap: round;
+    }
+    
+    #home, #forsale, #sold, #about, #contact {
+    scroll-margin-top: calc(var(--header-height) + 1rem);
+    }
+    
+    /*Active link is highlighted*/
+    
+    .js-nav--item__active {
+      color:     var(--highlight-color);
+      font-weight: 400;
+      
+    }
+
+
+
+    /*--------------------------------*/
+    /*DESKTOP LAYOUT*/
+    /*--------------------------------*/
+    /*
+    1) border-bottom is hidden otherwise
+    */
+   
+      
+    @media (min-width: 768px) {
+      .js-nav--wrapper {
+        display: flex;
+        width:   50%;
+        min-width: 582.5px; /*TODO: merge width and min-width to one line */
+        height:  calc(var(--header-height) - 5px); /* [1] */
+        position: unset;
+        background-color: transparent;
+        margin-left: auto;
+
+      }
+  
+      .js-nav--wrapper > * {
+        width: 100%;
+        
+      }  
+    .nav {
+      width:           100%;
+      display:         flex;
+      max-height:      100%;
+      flex-flow:       row nowrap;
+      justify-content: space-between;
+      align-items:     center;
+      gap:             .5rem;
+    }
+
+      .nav > * {
+        border-bottom: none;
+      }
+    
+      .js-nav--item {
+        display:         flex;
+        justify-content: center;
+        align-items:     center;
+        padding:         0;
+        height:          var(--header-height);
+      }
+
+          
+        .js-nav--item:hover, .js-nav--menu:hover {
+          color:           var(--highlight-color);
+          font-weight:     400;
+          transition:       0.3s;
+          text-decoration: underline;
+        }
+  
+     /*Sandvich menu is not shown on desktop */
+     .js-nav--menu {
+      display:  none;
+     }
+   
+  }
+    
+
+
+    
+/*!************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./public/css/partials/hero.css ***!
+  \************************************************************************************************************/
+
+/* Hero background */
+.hero {
+  display: flex;
+  flex-flow: column nowrap;
+  height: var(--hero-height);
+  align-items: center;
+  justify-items: center;
+  width: 100%;
+  padding: 5% 2rem;
+  
+}
+
+.hero-wrapper {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 1rem;
+  width: 100%;
+  height: 90%;
+}
+
+.hero-image {
+  background: url('/images/photos/hero_mobil.jpg') no-repeat center center;
+  background: url('/images/photos/hero_mobil.webp') no-repeat center center;
+  mix-blend-mode: multiply;
+  background-size: contain;
+  width: 100%; 
+  height: 100%;
+  
+}
+
+.hero-content {
+  text-align: center;
+  
+}
+
+.hero-content h1 {
+  margin-bottom: 1.25rem;
+}
+  .hero-content p {
+    margin-bottom: 1rem;
+  }
+
+/* DESKTOP VIEW */
+
+@media(min-width: 768px) {
+  .hero-image {
+    background: url('/images/photos/hero_desktop.jpg') no-repeat center center;
+    background: url('/images/photos/hero_desktop.webp') no-repeat center center;
+    background-size: contain;
+  }
+}
+
+@media(min-width: 1075px) {
+  .hero-wrapper {
+    flex-flow:       row-reverse nowrap;
+    justify-content: center;
+    align-items:     center;
+    gap:             0;
+    width:           80%;
+  }
+
+  .hero-image {
+    height:     100%;
+    max-height: unset;
+    width:      min(50%, 406px);
+  }
+
+  .hero-content {
+    width:      min(40%, 351px);
+    text-align: left;
+  }
+}
+/*!***************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./public/css/partials/buttons.css ***!
+  \***************************************************************************************************************/
+.btn {
+    font-family:    'Josefin Sans', sans-serif;
+    font-size:      var(--font-size-normal); 
+    line-height:    var(--line-height-normal);
+    font-weight:    300;
+    display:        inline-block;
+    box-sizing:     border-box;
+    width:          auto;
+    border:         1px solid;
+    border-radius:  1.5rem;
+    padding:        0.25rem 1rem;
+    text-align:     center;
+    border-color:   var(--highlight-color);
+    color:          var(--highlight-color);
+    transition:     0.3s ease;
+  }
+  
+  .btn:hover {
+    
+    font-weight:      400;
+    box-shadow: inset 0 0 0 1px var(--highlight-color), inset 0 0 0 1px var(--highlight-color);
+  }
+  
+    
+
+/*!*****************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./public/css/partials/paintings.css ***!
+  \*****************************************************************************************************************/
+/*width: 75,3125%* || 12.34% padding left&right*/ 
+
+/* min mobile 320px, max mobile 767px 
+767px * 0,753125 = 577,646px --> resize img to 600px width
+*/
+
+/* max desktop width is 1440px, max img width is 500px
+resize img to 1000px width for high resolution
+*/
+.paintings > h2 {
+    text-align: center;
+  }
+
+.paintings-wrapper {
+  display:         flex;
+  flex-flow:       column nowrap;
+  justify-content: flex-start;
+  align-items:     center;
+  gap:             2rem;
+}
+
+
+.single-painting {
+    width:      75.3125vw;
+    max-width:  500px;
+    height:     auto;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25); 
+}
+
+figcaption {
+  font-size:      var(--font-size-small);
+  line-height:    var(--line-height-small);
+  font-weight:    300;
+  text-align:     center;
+  margin-top:     0.8rem;
+}
+
+@media(min-width: 768px) {
+  .paintings-wrapper {
+    gap: 4rem;
+  }
+}
+/*!*************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./public/css/partials/about.css ***!
+  \*************************************************************************************************************/
+.about-wrapper {
+  display:         flex;
+  flex-flow:       column nowrap;
+  justify-content: flex-start;
+  align-items:     center;
+  gap:             2rem;
+  width:           100%;
+}
+
+
+
+.profile-img, .about-text {
+  width:     75.3125vw;
+  max-width: 500px;
+}
+
+.about-text > p:not(:last-child) {
+  margin-bottom: var(--line-height-regular);
+  
+}
+
+@media(min-width: 963px) {
+  .about-wrapper {
+    flex-flow:       row-reverse nowrap;
+    justify-content: center;
+    align-items:     center;
+    gap:             2rem;
+    max-width:       858px;
+  }
+
+  .profile-img {
+    max-height: 98%;
+    width:      min(367px, 40vw);
+  }
+
+  .about-text {
+    width: min(459px, 50%);
+  }
+}
+/*!***************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./public/css/partials/contact.css ***!
+  \***************************************************************************************************************/
+.contact {
+  width: min(445px, 75.3125vw);
+}
+
+.email {
+  white-space: nowrap;
+  color: var(--highlight-color);
+}
+
+.email:hover {
+  color: var(--title-color);
+  font-weight: 400;
+}
+
+@media(min-width: 768px) {
+  .contact {
+    gap: 3.33rem;
+  }
+}
+/*!***************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./public/css/partials/privacy.css ***!
+  \***************************************************************************************************************/
+.privacy {
+  max-width: 800px;
+  padding: 2rem;
+  gap: 2rem;
+}
+
+.privacy > h1 {
+  font-family:    'Josefin Sans', sans-serif;
+  color: var(--font-color);
+  
+}
+
+.privacy > h2 {
+  font-size: var(--font-size-regular);
+  line-height: var(--line-height-regular);
+  align-self: flex-start;
+  margin-top: 1rem;
+}
+
+/*  LISTS  */
+
+.privacy li {
+  list-style-position: inside;
+  display:             flex;
+  align-items:         flex-start;
+  
+}
+
+.privacy ul {
+  padding-left: 0;
+}
+
+
+
+.privacy ul li:before {
+  content:      "•"; 
+  margin-right: 0.5rem; /* A bullet point távolsága a szövegtől */
+  font-size:    1.5rem;
+}
+
+@media(min-width: 768px) {
+  .privacy {
+    padding: 4rem;
+  }
+  .privacy > h2 {
+    margin-top: 2rem;
+  }
+}
+/*!******************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./public/css/partials/impressium.css ***!
+  \******************************************************************************************************************/
+.impressum--wrapper {
+  display:         flex;
+  flex-flow:       column nowrap;
+  justify-content: flex-start;
+  align-items:     flex-start;
+  max-width:       47rem;
+  padding-top:     2rem;
+  padding-bottom:  2rem;
+  padding-left: var(--padding-left-right);
+  padding-right: var(--padding-left-right);
+  
+}
+
+  .impressum--subwrapper {
+    margin-top:    2rem;
+    margin-bottom: 2rem;
+  }
+
+  .impressum--wrapper h2 {
+    margin-bottom: 1rem;
+  }
+/*!**************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./public/css/partials/footer.css ***!
+  \**************************************************************************************************************/
+footer {
+    height:           var(--footer-height);
+    width:            100%;
+    display:          flex;
+    flex-flow:        column nowrap;
+    justify-content:  center;  
+    align-items:      center;
+    padding-top:      calc(var(--line-height-small) / 2);
+    gap:              calc(var(--line-height-small) / 3);
+    padding-bottom:   calc(var(--line-height-small) / 2);
+    background:       var(--background-color);
+    border-top:       1px solid var(--title-color);
+    opacity:          1;
+    padding-left:     12;
+    padding-right:    var(--padding-left-right);
+    text-align:       center;
+    
+  }
+
+  .footer-devider {
+    display: none;
+  }
+
+  .links--wrapper {
+    display:         flex;
+    flex-flow:       column nowrap;
+    justify-content: center;
+    align-items:     center;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  
+  }
+  
+    .footer--text {
+      text-align:      center;
+      font-size:       .875rem;
+      line-height:     calc(0.875rem * 1.5);  
+    }
+
+    .footer--text__link {
+      font-size:      .875rem;
+      line-height:     calc(0.875rem * 1.5);  
+      color:           var(--highlight-color);
+    }
+
+    .footer--text__link:hover {
+      text-decoration: underline;
+    }
+
+    @media(min-width: 340px) {
+      .links--wrapper {
+        flex-flow: row nowrap;
+        gap:       1rem;
+      }
+      .footer-devider {
+        display: inline-block;
+      }
+
+      .footer--text, .footer--text__link {
+        font-size: var(--font-size-small);
+        line-height: var(--line-height-small);  
+      }
+    }
+  
+
+    
+/*!*************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./public/css/partials/icons.css ***!
+  \*************************************************************************************************************/
+/* Social media icons */
+
+.icons--wrapper {
+    /*width:           50%;*/
+    height:          2rem;
+    display:         flex;
+    flex-flow:       row nowrap;
+    justify-content: flex-start;
+    gap:             .625rem;
+
+  }
+
+    .icons {
+      display:          flex;
+      flex-flow:        row nowrap;
+      justify-content:  center;
+      align-items:      center;
+      width:            2rem;
+      height:           2rem;
+      background-color: var(--brand-color);
+      color:            var(--secondary-color);
+      opacity:          .8;
+      border-radius:    50%;
+    }
+
+    .icons:hover {
+      background-color: transparent;
+      color:            var(--brand-color);
+      border:           .125rem solid var(--brand-color);
+    }  
+
+
+    .icons__light {
+      background-color: var(--tertiary-color);
+      color:            var(--primary-color);
+    }
+
+    .icons__light:hover {
+        background-color: transparent;
+        color:            var(--tertiary-color);
+        border:           .125rem solid var(--tertiary-color);
+      }  
+
+/*!************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./public/css/partials/hide.css ***!
+  \************************************************************************************************************/
+.hide {
+  display: none;
+}
+/*!**************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[1].use[2]!./public/css/style.css ***!
+  \**************************************************************************************************************************************************************************/
+/*;
+@import 'partials/highlighted-text.css';
+
+
+@import 'partials/drinks.css';
+
+@import 'partials/accordion.css';*/
+
+
+
+
+/*# sourceMappingURL=style.css.map*/

@@ -1,0 +1,48 @@
+.privacy {
+  max-width: 800px;
+  padding: 2rem;
+  gap: 2rem;
+}
+
+.privacy > h1 {
+  font-family:    'Josefin Sans', sans-serif;
+  color: var(--font-color);
+  
+}
+
+.privacy > h2 {
+  font-size: var(--font-size-regular);
+  line-height: var(--line-height-regular);
+  align-self: flex-start;
+  margin-top: 1rem;
+}
+
+/*  LISTS  */
+
+.privacy li {
+  list-style-position: inside;
+  display:             flex;
+  align-items:         flex-start;
+  
+}
+
+.privacy ul {
+  padding-left: 0;
+}
+
+
+
+.privacy ul li:before {
+  content:      "•"; 
+  margin-right: 0.5rem; /* A bullet point távolsága a szövegtől */
+  font-size:    1.5rem;
+}
+
+@media(min-width: 768px) {
+  .privacy {
+    padding: 4rem;
+  }
+  .privacy > h2 {
+    margin-top: 2rem;
+  }
+}

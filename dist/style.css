@@ -477,7 +477,7 @@ html {
 * OVERALL LAYOUT OF THE PAGE
 \*--------------------------------*/
 
-.container {
+.my-container {
     display:        flex;
     flex-flow:      column nowrap;
     align-items:    center;
@@ -934,19 +934,19 @@ figcaption {
 /*!***************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./public/css/partials/privacy.css ***!
   \***************************************************************************************************************/
-.privacy {
+.must {
   max-width: 800px;
   padding: 2rem;
   gap: 2rem;
 }
 
-.privacy > h1 {
+.must > h1 {
   font-family:    'Josefin Sans', sans-serif;
   color: var(--font-color);
   
 }
 
-.privacy > h2 {
+.must > h2 {
   font-size: var(--font-size-regular);
   line-height: var(--line-height-regular);
   align-self: flex-start;
@@ -955,30 +955,30 @@ figcaption {
 
 /*  LISTS  */
 
-.privacy li {
+.must li {
   list-style-position: inside;
   display:             flex;
   align-items:         flex-start;
   
 }
 
-.privacy ul {
+.must ul {
   padding-left: 0;
 }
 
 
 
-.privacy ul li:before {
+.must ul li:before {
   content:      "•"; 
   margin-right: 0.5rem; /* A bullet point távolsága a szövegtől */
   font-size:    1.5rem;
 }
 
 @media(min-width: 768px) {
-  .privacy {
+  .must {
     padding: 4rem;
   }
-  .privacy > h2 {
+  .must > h2 {
     margin-top: 2rem;
   }
 }
@@ -990,11 +990,7 @@ figcaption {
   flex-flow:       column nowrap;
   justify-content: flex-start;
   align-items:     flex-start;
-  max-width:       47rem;
-  padding-top:     2rem;
-  padding-bottom:  2rem;
-  padding-left: var(--padding-left-right);
-  padding-right: var(--padding-left-right);
+  
   
 }
 

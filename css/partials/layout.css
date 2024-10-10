@@ -12,7 +12,7 @@
 * OVERALL LAYOUT OF THE PAGE
 \*--------------------------------*/
 
-.container {
+.my-container {
     display:        flex;
     flex-flow:      column nowrap;
     align-items:    center;

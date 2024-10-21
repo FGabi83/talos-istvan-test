@@ -1,0 +1,48 @@
+.must {
+  max-width: 800px;
+  padding: 2rem;
+  gap: 2rem;
+}
+
+.must > h1 {
+  font-family:    'Josefin Sans', sans-serif;
+  color: var(--font-color);
+  
+}
+
+.must > h2 {
+  font-size: var(--font-size-regular);
+  line-height: var(--line-height-regular);
+  align-self: flex-start;
+  margin-top: 1rem;
+}
+
+/*  LISTS  */
+
+.must li {
+  list-style-position: inside;
+  display:             flex;
+  align-items:         flex-start;
+  
+}
+
+.must ul {
+  padding-left: 0;
+}
+
+
+
+.must ul li:before {
+  content:      "•"; 
+  margin-right: 0.5rem; /* A bullet point távolsága a szövegtől */
+  font-size:    1.5rem;
+}
+
+@media(min-width: 768px) {
+  .must {
+    padding: 4rem;
+  }
+  .must > h2 {
+    margin-top: 2rem;
+  }
+}

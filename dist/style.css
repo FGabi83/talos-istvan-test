@@ -766,14 +766,6 @@ header {
 
 /* DESKTOP VIEW */
 
-@media(min-width: 768px) {
-  .hero-image {
-    background: url('/images/photos/hero_desktop.jpg') no-repeat center center;
-    background: url('/images/photos/hero_desktop.webp') no-repeat center center;
-    background-size: contain;
-  }
-}
-
 @media(min-width: 1075px) {
   .hero-wrapper {
     flex-flow:       row-reverse nowrap;
@@ -825,15 +817,7 @@ header {
 /*!*****************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./public/css/partials/paintings.css ***!
   \*****************************************************************************************************************/
-/*width: 75,3125%* || 12.34% padding left&right*/ 
 
-/* min mobile 320px, max mobile 767px 
-767px * 0,753125 = 577,646px --> resize img to 600px width
-*/
-
-/* max desktop width is 1440px, max img width is 500px
-resize img to 1000px width for high resolution
-*/
 .paintings > h2 {
     text-align: center;
   }
@@ -843,7 +827,7 @@ resize img to 1000px width for high resolution
   flex-flow:       column nowrap;
   justify-content: flex-start;
   align-items:     center;
-  gap:             2rem;
+  gap:             3rem;
 }
 
 
@@ -852,6 +836,7 @@ resize img to 1000px width for high resolution
     max-width:  500px;
     height:     auto;
     box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25); 
+    
 }
 
 figcaption {
@@ -859,7 +844,7 @@ figcaption {
   line-height:    var(--line-height-small);
   font-weight:    300;
   text-align:     center;
-  margin-top:     0.8rem;
+ 
 }
 
 @media(min-width: 768px) {
@@ -1018,8 +1003,6 @@ footer {
     background:       var(--background-color);
     border-top:       1px solid var(--title-color);
     opacity:          1;
-    padding-left:     12;
-    padding-right:    var(--padding-left-right);
     text-align:       center;
     
   }

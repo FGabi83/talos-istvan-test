@@ -1,0 +1,39 @@
+.about-wrapper {
+  display:         flex;
+  flex-flow:       column nowrap;
+  justify-content: flex-start;
+  align-items:     center;
+  gap:             2rem;
+  width:           100%;
+}
+
+
+
+.profile-img, .about-text {
+  width:     75.3125vw;
+  max-width: 500px;
+}
+
+.about-text > p:not(:last-child) {
+  margin-bottom: var(--line-height-regular);
+  
+}
+
+@media(min-width: 963px) {
+  .about-wrapper {
+    flex-flow:       row-reverse nowrap;
+    justify-content: center;
+    align-items:     center;
+    gap:             2rem;
+    max-width:       858px;
+  }
+
+  .profile-img {
+    max-height: 98%;
+    width:      min(367px, 40vw);
+  }
+
+  .about-text {
+    width: min(459px, 50%);
+  }
+}

@@ -1,0 +1,19 @@
+.contact {
+  width: min(445px, 75.3125vw);
+}
+
+.email {
+  white-space: nowrap;
+  color: var(--highlight-color);
+}
+
+.email:hover {
+  color: var(--title-color);
+  font-weight: 400;
+}
+
+@media(min-width: 768px) {
+  .contact {
+    gap: 3.33rem;
+  }
+}

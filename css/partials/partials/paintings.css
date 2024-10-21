@@ -1,0 +1,42 @@
+/*width: 75,3125%* || 12.34% padding left&right*/ 
+
+/* min mobile 320px, max mobile 767px 
+767px * 0,753125 = 577,646px --> resize img to 600px width
+*/
+
+/* max desktop width is 1440px, max img width is 500px
+resize img to 1000px width for high resolution
+*/
+.paintings > h2 {
+    text-align: center;
+  }
+
+.paintings-wrapper {
+  display:         flex;
+  flex-flow:       column nowrap;
+  justify-content: flex-start;
+  align-items:     center;
+  gap:             2rem;
+}
+
+
+.single-painting {
+    width:      75.3125vw;
+    max-width:  500px;
+    height:     auto;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25); 
+}
+
+figcaption {
+  font-size:      var(--font-size-small);
+  line-height:    var(--line-height-small);
+  font-weight:    300;
+  text-align:     center;
+  margin-top:     0.8rem;
+}
+
+@media(min-width: 768px) {
+  .paintings-wrapper {
+    gap: 4rem;
+  }
+}

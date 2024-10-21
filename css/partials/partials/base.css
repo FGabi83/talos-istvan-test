@@ -1,0 +1,47 @@
+/*-----------------------------------*\
+* BASIC SETTINGS OF THE PAGE
+\*-----------------------------------*/
+
+:root {
+    --font-color:         #333333; /* dark grey text color*/
+    --title-color:        #405136; /* dark green title color */
+    --highlight-color:    #526845; /* light green highlight color */
+    --font-size-regular:    clamp(1.125rem, 0.5vw + 1rem, 1.25rem);
+    --line-height-regular:  calc(var(--font-size-regular) * 1.5);
+    --font-size-title:      clamp(1.875rem, 3.5vw + 1rem, 3.75rem);
+    --line-height-title:    calc(var(--font-size-title) * 1.2);
+    --font-size-small:      1rem;
+    --line-height-small:    calc(var(--font-size-small) * 1.5);
+    --header-height:        clamp(3.125rem, 6vw + 1rem, 5rem);
+    --hero-height:          calc(100vh - var(--header-height));  
+    --footer-height:        6.375rem; 
+} 
+
+/* normalize CSS */
+
+* {
+    margin:     0;
+    padding:    0;
+    box-sizing: border-box;
+}
+
+  
+  html, body {
+    width:      100%;
+    overflow-x: hidden;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+
+   body {
+    background-color: white;
+   }
+
+  
+   
+
+  
+
